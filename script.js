@@ -5,7 +5,7 @@ let addBtn = document.getElementById('liveToastBtn');
 let inputBox = document.getElementById('task');
 let closeBtn;
 let listId;
-let checkedOnes = [];
+var checkedOnes = [];
 
 
 function createCheckedList(){
